@@ -77,7 +77,7 @@ export const ListQ = () => {
 	const history = useHistory();
 
 	useEffect(() => {
-		fetch(`${baseUrl}/allques`)
+		fetch(`${baseUrl}/allquesnoauth`)
 			.then((res) => res.json())
 			.then((response) => {
 				console.log(response);
