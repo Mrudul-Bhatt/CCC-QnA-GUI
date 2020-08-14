@@ -30,7 +30,7 @@ export const Navbar = () => {
 		<div className={classes.root}>
 			<AppBar position='static'>
 				<Toolbar>
-					<Typography variant='h6' className={classes.title}>
+					<Typography color='inherit' variant='h6' className={classes.title}>
 						CCC-QnA-GUI
 					</Typography>
 					<IconButton color='inherit' onClick={() => history.push('/')}>

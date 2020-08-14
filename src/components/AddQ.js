@@ -110,6 +110,7 @@ export const AddQ = () => {
 									variant='outlined'
 									label='Question'
 									required
+									multiline
 									fullWidth
 									autoFocus
 									value={question}

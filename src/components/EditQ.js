@@ -126,6 +126,7 @@ export const EditQ = () => {
 									variant='outlined'
 									label='Question'
 									required
+									multiline
 									fullWidth
 									autoFocus
 									value={question}
