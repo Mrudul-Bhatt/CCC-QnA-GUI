@@ -166,7 +166,7 @@ export const ListQ = () => {
 						return (
 							<Grid item lg={12} sm={12} xs={12} key={item._id}>
 								<Paper variant='outlined' style={{ width: '100%' }}>
-									<h3>
+									<h3 style={{ whiteSpace: 'pre-wrap' }}>
 										{`(S ${item.section}) Q ${index + 1} ${item.question}`}
 									</h3>
 									<Divider />
